@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF9800"
+    tools:context=".ProfileCustomer">
+
+    <ImageView
+        android:id="@+id/imgUser"
+        android:layout_width="138dp"
+        android:layout_height="114dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/imgUser"
+        app:layout_constraintEnd_toStartOf="@+id/txtNameProfile"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/user" />
+
+    <TextView
+        android:id="@+id/txtNameProfile"
+        android:layout_width="225dp"
+        android:layout_height="114dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="bottom"
+        android:textColor="#4E342E"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edTxtHobbies"
+        android:layout_width="345dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="27dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/hint2"
+        android:inputType="textPersonName"
+        android:textColor="#6D4C41"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtHobbies"
+        tools:ignore="SpeakableTextPresentCheck,TextContrastCheck,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/edTxtFavFood"
+        android:layout_width="345dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="35dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/hint3"
+        android:inputType="textPersonName"
+        android:textColor="#6D4C41"
+        android:textColorHint="#4E342E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtFavFood"
+        tools:ignore="SpeakableTextPresentCheck,TextContrastCheck" />
+
+
+    <Button
+        android:id="@+id/btnNextProfileCustomer"
+        android:layout_width="115dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="35dp"
+        android:text="@string/btnNextProfile"
+        android:textColor="#6D4C41"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edTxtFavFood" />
+
+    <TextView
+        android:id="@+id/txtFavFood"
+        android:layout_width="345dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="33dp"
+        android:gravity="bottom"
+        android:text="@string/txtFavFood"
+        android:textColor="#B71C1C"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edTxtHobbies" />
+
+    <TextView
+        android:id="@+id/txtHobbies"
+        android:layout_width="345dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="56dp"
+        android:gravity="bottom"
+        android:text="@string/txtProfileHobbies"
+        android:textColor="#B71C1C"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgUser" />
+</androidx.constraintlayout.widget.ConstraintLayout>

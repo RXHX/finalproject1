@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF9800"
+    tools:context=".ManagerReminder">
+
+    <TextView
+        android:id="@+id/ques"
+        android:layout_width="373dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="75dp"
+        android:text="@string/txtReminder"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.439"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtReminder"
+        android:layout_width="338dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="37dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/hint3"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ques"
+        tools:ignore="TextContrastCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/addReminder"
+        android:layout_width="153dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="140dp"
+        android:text="@string/Add"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtReminder" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

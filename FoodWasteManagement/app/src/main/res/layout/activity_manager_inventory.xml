@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF9800"
+    tools:context=".ManagerInventory"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/restaurantName"
+        android:layout_width="274dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="69dp"
+        android:gravity="center"
+        android:text="@string/restName"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/restaurantLoc"
+        android:layout_width="192dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="31dp"
+        android:text="@string/restName"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/restaurantName" />
+
+    <EditText
+        android:id="@+id/ItemName"
+        android:layout_width="231dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="76dp"
+        android:ems="10"
+        android:hint="@string/Item1"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/restaurantLoc"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/ItemPrice"
+        android:layout_width="228dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="27dp"
+        android:ems="10"
+        android:hint="@string/ItemPrice1"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ItemName"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/Add"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ItemQty" />
+
+    <EditText
+        android:id="@+id/ItemQty"
+        android:layout_width="228dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="@string/qty"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ItemPrice"
+        tools:ignore="TextContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

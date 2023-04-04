@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">FoodWaste</string>
+    <string name="imgLogo">an Image</string>
+    <string name="edUserName">Username...</string>
+    <string name="edPassword">Password...</string>
+    <string name="btnLogin">Login</string>
+    <string name="btnForgetPass">Forgot Password ?</string>
+    <string name="btnSignCust">Sign Up As a Customer</string>
+    <string name="btnSignManager">Sign Up As a Manager</string>
+    <string name="userRegister">Registration</string>
+    <string name="registerUser">Username</string>
+    <string name="registerPassword">Password</string>
+    <string name="registerName">FullName</string>
+    <string name="txtDob">DateOfBirth</string>
+    <string name="txtSubmit">Submit</string>
+    <string name="edTxtRestName">Restaurant Name</string>
+    <string name="edTxtLocation">Location</string>
+    <string name="edPhoneNumber">Phone Number</string>
+    <string name="btnsearchRestaurant">Search for a restaurent</string>
+    <string name="btnOrderfood">Order Food</string>
+    <string name="btnOrderDetails">View an order details and status</string>
+    <string name="btnOrderHistory">View Order History</string>
+    <string name="btnupdate">Edit user profile</string>
+    <string name="btnLogOutuser">Log out</string>
+    <string name="btnAddremove">Add food items</string>
+    <string name="btnReminder">Send a reminder</string>
+    <string name="btnReports">Generate reports</string>
+    <string name="txtPhoneNumber">Enter Phone Number</string>
+    <string name="rePass">Re-Enter Password</string>
+    <string name="newPass">NewPassword</string>
+    <string name="restName" />
+    <string name="Item1">Item</string>
+    <string name="ItemPrice1">Price</string>
+    <string name="Add">Add</string>
+    <string name="qty">Qty</string>
+    <string name="menuItemPrice">0</string>
+    <string name="ItemQty">0</string>
+    <string name="txtCheck" />
+    <string name="orderSumary">Bill Summary</string>
+    <string name="indexNum">SNo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bill">View Bill</string>
+    <string name="placeOrder">Place Order</string>
+    <string name="BillBeforeTax">Total Bill Before Tax</string>
+    <string name="BillAfterTax">Total Bill After Tax</string>
+    <string name="deliveryOption">Choose Delivery Options</string>
+    <string name="deliveryOpt">Delivery Type</string>
+    <string name="rdbtn1">Pick Up</string>
+    <string name="rdbtn2">Deliver at Location</string>
+    <string name="delstatus">Confirm Delivery</string>
+    <string name="pickup">Your can pick up your order after 30 Minutes.</string>
+    <string name="loc">Location</string>
+    <string name="txtProfileHobbies">Hobbies</string>
+    <string name="txtFavFood">Favourite Food</string>
+    <string name="proflie_username">Username</string>
+    <string name="btnNextProfile">Next</string>
+    <string name="imgUser">User Image</string>
+    <string name="UpdateProfile">Update</string>
+    <string name="txtRdBtnProfileAreYouStudent">Are you a Student?</string>
+    <string name="rdBtnYesProfile">Yes</string>
+    <string name="rdBtnProfileNo">No</string>
+    <string name="txtOranisation">Organisation</string>
+    <string name="txtStudentID">Student ID</string>
+    <string name="btnBackProfile">Back</string>
+    <string name="hint1">"Enter Username"</string>
+    <string name="hint2">"Enter Hobbies"</string>
+    <string name="hint3"></string>
+    <string name="hint4">"Enter Student Organization"</string>
+    <string name="hint5">"Enter Student Number"</string>
+
+    <string name="title_activity_customer_order_history">CustomerOrderHistory</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="txtReminder">Please Enter Reminder Message</string>
+    <string name="custReminder"></string>
+    <string name="txtSold">ORDERED</string>
+    <string name="userProfile">View User Profile</string>
+    <string name="txtHobbies">Hobbies</string>
+    <string name="favFood">Favourite Food</string>
+    <string name="txtstdopt">Student Option</string>
+    <string name="txtstdId">Student ID</string>
+    <string name="txtstdorg">Student Organization</string>
+
+
+</resources>
